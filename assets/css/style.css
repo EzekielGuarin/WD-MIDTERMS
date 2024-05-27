@@ -1,0 +1,134 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;    
+}
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./bg.jpg);
+    background-image:linear-gradient(rgba(12, 12, 12, 0.5), rgba(79, 69, 69, 0.5)), url(./bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+.color nav 
+{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    width: 140px;
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+.content
+{
+    margin-top: 10%;
+    max-width: 1000px;
+}
+.content h1
+{
+    font-size: 60px;
+    color: #fff;
+}
+.content p
+{
+    margin: 10px 0 30px;
+    color: #fff;
+    max-width: 600px;
+}
+.form
+{
+    width: 350px;
+    height: 450px;
+    background: #fff;
+    border-radius: 15px;
+    position: absolute;
+    top: 30%;
+    left: 870px;
+    padding: 25px;
+}
+.form h2
+{
+    width: 300x;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 22px;
+    margin: 1px;
+    padding: 8px;
+}
+.form input
+{  
+    background: transparent;
+    width: 300px;
+    height: 50px;
+    font-size: 15px;
+    position: center;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.form .submit
+{
+    background-color: #ffff00;
+    justify-content: center;
+    bottom: 50px;
+}
+.container2
+{
+    background: #ffff00;
+}
+.container2 .icons img
+{
+    padding: 5px 10px;
+    position: relative;
+    width: 70px;
+    height: 70px;
+}
+.container3
+{
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative;
+}
+.container3 h1
+{
+    font-size: 60px;
+    color: #000;
+    right: 20px;
+}
+.container3 p
+{
+    float: right;
+    margin-left: 5px;
+    color: #000;
+    max-width: 600px;
+}
+.ecommerce img
+{
+    float: left;
+    width: 40%;
+    height: 40%;
+}
